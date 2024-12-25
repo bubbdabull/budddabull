@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -97,7 +95,7 @@
         <div class="social-links">
             <a href="https://www.facebook.com/YourPage" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
             <a href="https://twitter.com/YourProfile" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-            <a href="https://pump.fun/YourProfile" target="_blank" aria-label="Pump.fun"><img src="path-to-pump-fun-logo.png" alt="Pump.fun" style="width: 24px; height: 24px;"></a>
+            <a href="https://pump.fun/YourProfile" target="_blank" aria-label="Pump.fun"><i class="fas fa-bullhorn"></i></a>
         </div>
         <div class="disclaimer">
             <p><strong>Disclaimer:</strong> Bubb Da Bull is a meme coin created for entertainment purposes. Investing in meme coins carries significant risk. Please exercise caution and do thorough research before making any investment decisions.</p>
