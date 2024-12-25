@@ -17,7 +17,7 @@
         /* Header Section with Background Image */
         header {
             position: relative;
-            background-image: url('your-image-url-here.jpg'); /* Replace with your image URL */
+            background-image: url(.github/BubbDaBull.jpeg); /* Replace with your image URL */
             background-size: cover;
             background-position: center;
             height: 100vh; /* Full viewport height */
