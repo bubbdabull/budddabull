@@ -17,7 +17,84 @@
         /* Header Section with Background Image */
         header {
             position: relative;
-            background-image: url('your-image-url-here.jpg'); /* Replace with your image URL */
+            background-image: url(    /* Header Section with Background Image */
+    header {
+        position: relative;
+        background-image: url('your-image-url-here.jpg'); /* Replace with your image URL */
+        background-size: cover;
+        background-position: center;
+        height: 100vh; /* Full viewport height */
+        text-align: center;
+        padding-top: 100px;
+        color: white;
+    }
+
+    header h1 {
+        font-size: 4rem;
+        margin: 0;
+    }
+
+    header p {
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+
+    /* Call-to-Action Button */
+    .cta-button {
+        background-color: #28a745;
+        color: white;
+        padding: 15px 30px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        margin-top: 30px;
+        display: inline-block;
+    }
+
+    .cta-button:hover {
+        background-color: #218838;
+    }
+
+    /* Main Content Section */
+    section {
+        padding: 60px 20px;
+        text-align: center;
+        background-color: #ffffff;
+        color: #333;
+    }
+
+    section h2 {
+        color: #1a73e8;
+    }
+
+    /* Social Media Links */
+    .social-links {
+        margin-top: 20px;
+    }
+
+    .social-links a {
+        color: #333;
+        margin: 0 15px;
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+
+    .social-links a:hover {
+        opacity: 0.7;
+    }
+
+    /* Footer Section */
+    footer {
+        background-color: #343a40;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+    footer p {
+        margin: 0;
+    }
+</style>);
             background-size: cover;
             background-position: center;
             height: 100vh; /* Full viewport height */
