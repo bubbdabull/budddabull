@@ -15,7 +15,7 @@
         }
         /* Set the background image */
         body {
-            background-image: url('path-to-your-background-image.jpg');
+            background-image: url(https://github.com/user-attachments/assets/47d87e5a-585b-4c87-ae82-0dbb997023b8);
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
