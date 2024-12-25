@@ -1,206 +1,60 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Budd Da Bull - Solana Meme Coin</title>
+    <title>Bubb Da Bull - Solana Meme Coin</title>
     <style>
-        /* Global Styles */
-        body {
+        /* Ensure the page takes up full height */
+        html, body {
+            height: 100%;
+            margin: 0;
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
-            color: white;
         }
-
-        /* Header Section with Background Image */
-        header {
-            position: relative;
-            background-image: url(    /* Header Section with Background Image */
-    header {
-        position: relative;
-        background-image: url(https://github.com/user-attachments/assets/47d87e5a-585b-4c87-ae82-0dbb997023b8);
-        background-size: cover;
-        background-position: center;
-        height: 100vh; /* Full viewport height */
-        text-align: center;
-        padding-top: 100px;
-        color: white;
-    }
-
-    header h1 {
-        font-size: 4rem;
-        margin: 0;
-    }
-
-    header p {
-        font-size: 1.5rem;
-        margin-top: 20px;
-    }
-
-    /* Call-to-Action Button */
-    .cta-button {
-        background-color: #28a745;
-        color: white;
-        padding: 15px 30px;
-        text-decoration: none;
-        border-radius: 5px;
-        font-size: 1.2rem;
-        margin-top: 30px;
-        display: inline-block;
-    }
-
-    .cta-button:hover {
-        background-color: #218838;
-    }
-
-    /* Main Content Section */
-    section {
-        padding: 60px 20px;
-        text-align: center;
-        background-color: #ffffff;
-        color: #333;
-    }
-
-    section h2 {
-        color: #1a73e8;
-    }
-
-    /* Social Media Links */
-    .social-links {
-        margin-top: 20px;
-    }
-
-    .social-links a {
-        color: #333;
-        margin: 0 15px;
-        text-decoration: none;
-        font-size: 1.5rem;
-    }
-
-    .social-links a:hover {
-        opacity: 0.7;
-    }
-
-    /* Footer Section */
-    footer {
-        background-color: #343a40;
-        color: white;
-        text-align: center;
-        padding: 20px;
-    }
-
-    footer p {
-        margin: 0;
-    }
-</style>);
-            background-size: cover;
-            background-position: center;
-            height: 100vh; /* Full viewport height */
+        /* Set the background image */
+        body {
+            background-image: url (https://github.com/user-attachments/assets/47d87e5a-585b-4c87-ae82-0dbb997023b8);
+            background-size: cover; /* Ensures the image covers the entire background */
+            background-position: center; /* Centers the image */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+        }
+        /* Center content */
+        .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
             text-align: center;
-            padding-top: 100px;
-            color: white;
+            color: #fff; /* Adjust text color for contrast */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Adds text shadow for better readability */
         }
-
-        header h1 {
-            font-size: 4rem;
-            margin: 0;
-        }
-
-        header p {
-            font-size: 1.5rem;
-            margin-top: 20px;
-        }
-
-        /* Call-to-Action Button */
-        .cta-button {
-            background-color: #28a745;
-            color: white;
-            padding: 15px 30px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 1.2rem;
-            margin-top: 30px;
-            display: inline-block;
-        }
-
-        .cta-button:hover {
-            background-color: #218838;
-        }
-
-        /* Main Content Section */
-        section {
-            padding: 60px 20px;
-            text-align: center;
-            background-color: #ffffff;
-            color: #333;
-        }
-
-        section h2 {
-            color: #1a73e8;
-        }
-
-        /* Social Media Links */
+        /* Style social media links */
         .social-links {
             margin-top: 20px;
         }
-
         .social-links a {
-            color: #333;
-            margin: 0 15px;
+            margin: 0 10px;
             text-decoration: none;
-            font-size: 1.5rem;
+            color: #fff;
+            font-size: 24px;
         }
-
         .social-links a:hover {
-            opacity: 0.7;
-        }
-
-        /* Footer Section */
-        footer {
-            background-color: #343a40;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-
-        footer p {
-            margin: 0;
+            opacity: 0.7; /* Adds a hover effect */
         }
     </style>
+    <!-- Include Font Awesome for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-
-    <!-- Header Section with Image Background -->
-    <header>
-        <h1>Budd Da Bull</h1>
-        <p>The Solana Meme Coin that’s ready to charge!</p>
-        <a href="#" class="cta-button">Join the Bullish Movement!</a>
-    </header>
-
-    <!-- Main Content Section -->
-    <section>
-        <h2>About Budd Da Bull</h2>
-        <p>Budd Da Bull is the meme coin that's making waves on the Solana blockchain. With fast transactions and a vibrant community, we’re here to make your crypto experience more exciting and fun than ever!</p>
-        <p>Fast, decentralized, and powered by Solana – we’re here to ride the bullish wave together!</p>
-        <a href="#" class="cta-button">Get Your Budd Da Bull</a>
-    </section>
-
-    <!-- Social Media Links Section -->
-    <section class="social-links">
-        <h2>Follow Us!</h2>
-        <a href="https://twitter.com/BuddDaBull" target="_blank">Twitter</a>
-        <a href="https://facebook.com/BuddDaBull" target="_blank">Facebook</a>
-        <a href="https://pump.fun/BuddDaBull" target="_blank">Pump.fun</a>
-    </section>
-
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2024 Budd Da Bull. All Rights Reserved.</p>
-    </footer>
-
+    <div class="content">
+        <h1>Welcome to Bubb Da Bull</h1>
+        <p>The Next Big Solana Meme Coin</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/YourPage" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/YourProfile" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://pump.fun/YourProfile" target="_blank" aria-label="Pump.fun"><i class="fas fa-bullhorn"></i></a>
+        </div>
+    </div>
 </body>
 </html>
-
-
