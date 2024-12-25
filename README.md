@@ -102,7 +102,7 @@
         </div>
     </div>
     <footer>
-        &copy; <span id="current-year"></span> Bubb Da Bull. All rights reserved.
+        &copy; <span id="2025"></span> Bubb Da Bull. All rights reserved.
     </footer>
     <script>
         // Set the current year in the footer
