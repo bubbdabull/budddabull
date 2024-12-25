@@ -20,7 +20,7 @@
             background-image: url(    /* Header Section with Background Image */
     header {
         position: relative;
-        background-image: url(https://github.com/bubbdabull/budddabull/blob/main/.github/BubbDaBull.jpeg);
+        background-image: url(https://github.com/user-attachments/assets/47d87e5a-585b-4c87-ae82-0dbb997023b8);
         background-size: cover;
         background-position: center;
         height: 100vh; /* Full viewport height */
