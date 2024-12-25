@@ -1,0 +1,101 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    color: white;
+}
+
+/* Header Section with Image Background */
+header {
+    position: relative;
+    background-image: url('https://your-image-url-here.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+/* Overlay on Background Image */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay to improve text visibility */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* Call-to-Action Button Styling */
+.cta-button {
+    background-color: #28a745;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #218838;
+}
+
+/* About Section */
+.about {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+}
+
+.about h2 {
+    color: #1a73e8;
+}
+
+/* Social Media Links Styling */
+.social-links {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.social-links a {
+    color: #333;
+    margin: 0 15px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    opacity: 0.7;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
