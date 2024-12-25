@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,13 +9,15 @@
             height: 100%;
             margin: 0;
             font-family: Arial, sans-serif;
+            color: #fff;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
         }
         /* Set the background image */
         body {
-            background-image: url();
-            background-size: cover; /* Ensures the image covers the entire background */
-            background-position: center; /* Centers the image */
-            background-repeat: no-repeat; /* Prevents the image from repeating */
+            background-image: url('path-to-your-background-image.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -25,11 +26,8 @@
         .content {
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
             text-align: center;
-            color: #fff; /* Adjust text color for contrast */
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Adds text shadow for better readability */
             padding: 20px;
         }
         /* Style social media links */
@@ -43,13 +41,13 @@
             font-size: 24px;
         }
         .social-links a:hover {
-            opacity: 0.7; /* Adds a hover effect */
+            opacity: 0.7;
         }
         /* Style the call-to-action button */
         .cta-button {
             margin-top: 30px;
             padding: 15px 30px;
-            background-color: #ff4500; /* Bright color to attract attention */
+            background-color: #ff4500;
             color: #fff;
             text-decoration: none;
             font-size: 18px;
@@ -57,15 +55,33 @@
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
         }
         .cta-button:hover {
-            background-color: #e03e00; /* Slightly darker shade on hover */
+            background-color: #e03e00;
+        }
+        /* Disclaimer styling */
+        .disclaimer {
+            margin-top: 40px;
+            font-size: 14px;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 5px;
+            max-width: 600px;
         }
         /* Footer styling */
         footer {
             text-align: center;
             padding: 10px;
-            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-            color: #fff;
+            background-color: rgba(0, 0, 0, 0.5);
             font-size: 14px;
+        }
+        /* Responsive design */
+        @media (max-width: 600px) {
+            .cta-button {
+                width: 80%;
+                font-size: 16px;
+            }
+            .social-links a {
+                font-size: 20px;
+            }
         }
     </style>
     <!-- Include Font Awesome for social media icons -->
@@ -80,7 +96,10 @@
         <div class="social-links">
             <a href="https://www.facebook.com/YourPage" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
             <a href="https://twitter.com/YourProfile" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-            <a href="https://pump.fun/YourProfile" target="_blank" aria-label="Pump.fun"><i class="fas fa-bullhorn"></i></a>
+            <a href="https://pump.fun/YourProfile" target="_blank" aria-label="Pump.fun"><img src="path-to-pump-fun-logo.png" alt="Pump.fun" style="width: 24px; height: 24px;"></a>
+        </div>
+        <div class="disclaimer">
+            <p><strong>Disclaimer:</strong> Bubb Da Bull is a meme coin created for entertainment purposes. Investing in meme coins carries significant risk. Please exercise caution and do thorough research before making any investment decisions.</p>
         </div>
     </div>
     <footer>
@@ -92,3 +111,4 @@
     </script>
 </body>
 </html>
+
